@@ -1,0 +1,26 @@
+Task: Create Volunteer Overseas site database & basic SQL queries
+
+Description:
+ 1. Create Volunteer Overseas database as per "er-diagram.png" add required constraints for tables.
+ 2. Save above table queries in separate file in assignment folder.
+ 3. Refer "data.xlsx" for data.
+ 4. Write SQL queries for below list of tasks:
+
+# Project Task
+ 1. Insert User details in "User" table
+ 2. Insert upto 20 projects assigned to different organisations, categories, activities, countries & cities
+ 3. Search user by username using like
+ 4. Get projects count by organisation and order by project count (From highest to lowest)
+ 5. Get active projects count by organisation and get project active duration in number of days
+ 6. Get number of projects between specific date range in each organisation
+ 7. Get list of projects assigned to Animal Welfare, Education & Human Rights activities
+ 8. Get list of organisation with more than 2 projects & less than 4 projects
+ 9. Get list of organisations with "some text" matching in name or contact_name field
+
+
+ 
+# Additional Task
+
+1. Get list of projects assigned to Animal Welfare, Education & Human Rights categories. Get the project results with following list of columns Project Title, Organization Name, Activity Name, Category Name, City Name, Country Name & Organisation User Email
+
+2. Create a new database. Create Users, Teachers & Persons table with columns id, name & city_name. Select records from Users & Teachers table and insert into Persons table. (Hint: use union)

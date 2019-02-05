@@ -1,0 +1,25 @@
+Bank Application tasks
+
+a. accounts (savings/current)
+1. create account.
+2. deposit/withdraw money.
+3. check balance.
+4. view / edit account details.
+5. give loan.
+6. loan status.
+7. account details.
+
+b. admin
+1. add / remove employee.
+2. view details of all the accounts.
+3. see all loan status.
+
+c. employee
+1. edit their profiles.
+2. login/logout.
+
+
+-- decorator pattern
+-- builder pattern
+-- state pattern
+-- adapter pattern

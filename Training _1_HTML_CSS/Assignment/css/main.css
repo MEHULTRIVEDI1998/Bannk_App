@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+html{scroll-behavior: smooth;}
+body {font-family : 'Roboto', sans-serif;color:black;font-size : 14px;}
+h4{font-size : 25px;}
+.head-index{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%,rgba(0, 0, 0, 0.06) 10%,rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, 
+	rgba(0, 0, 0, 0.91) 100%) ,url('../images/banner3.jpg');background-repeat: no-repeat; position: relative;background-size: cover; background-position: top; height: 60%;}
+header.head-index nav{border-bottom: 1px solid white;}
+header.head-index nav.fixed-header form button,header.head-faq nav.fixed-header form button,header.head-contact nav.fixed-header form button,header.search-banner nav.fixed-header form button{background-color: #00ACC1;color: white;width: auto;}
+header.head-index nav.fixed-header .nav-link{color: #00ACC1;}
+header.head-index nav form button:hover,header.head-faq nav form button:hover,header.head-contact nav form button:hover,header.search-banner nav form button:hover{background-color: #dc3454;}
+header.head-index div h1{margin-top: 3%;margin-bottom:3%;}
+.fixed-header{position: fixed;background-color: white;width: 100%;top: 0;z-index: 2;left: 0;margin: 0px 20px 0px 0px;}.fixed-nav{position: fixed;background-color: white;width: 100%;top: 7%;z-index: 2;left: 0;border: none;}
+#links{border-top: 1px solid #ccc;}
+div.flex-fill{padding: 10px;text-align: center; }
+div.flex-fill:hover{background-color: #dc3454;color: white;}
+.header-title-index{color: white;font-family: "Roboto", sans-serif;font-weight: bolder;	}
+.header-title-index h1{text-align: center;}
+.vid video{width: 100%;height: 100%;}
+.header-text{text-align: center;color: white;font-family: "Roboto", sans-serif;font-weight: bolder;background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.06) 10%, 
+  rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, rgba(0, 0, 0, 0.91) 100%) ,url('../images/banner3.jpg');
+background-repeat: no-repeat;background-size: cover;background-position: center;height: 300px;	}
+.nav-bdr{border-bottom: 1px solid white;margin-left: 50px;margin-right:50px;}
+.nav-color{color: white;font-size: 16px;}
+.logo{margin-right:20px;}
+.login-btn{background-color: Transparent;border-color: white;border-style: solid;color:white;float: right;margin-right:20px;margin-top: 20px;border-radius: 5px;}
+.view-btn{height:auto;border-radius: 5px;color: #00ACC1; font-size: 20px;font-family:'Roboto',sans-serif;padding: 5px;margin-bottom: 15px;}
+.view-btn label{margin-left: 10px;}
+.top-border{margin-top: 10px;padding-top: 10px 10px 0px 10px;}
+.side-menu{background-color: #00ACC1;padding: 15px;height: auto;width: auto;display: block;}
+.select-opt{height: 50px;width: 100%;margin-bottom: 20px;margin-right: 30px;padding:5px;}
+.top-border a{ color: #00ACC1; }
+div#owl-table table{border: 1px solid #ccc;}
+div#owl-table table th{text-align: center;background-color: #00ACC1;color: white;font-size: 18px;width: 25%;}
+div#owl-table table td{text-align: center;font-size: 16px;color: #00ACC1;}
+div#owl-table table td b{color: red;font-size: 18px;}
+div#owl-table .owl-nav button.owl-prev{left:1%;bottom:80%; position: absolute;}
+div#owl-table .owl-nav button.owl-next{right: 1%;bottom:80%; position: absolute;}
+div#owl-table .owl-nav button.owl-prev img{height: 25px;width: 15px;}
+div#owl-table .owl-nav button.owl-next img{height: 25px;width: 15px;}
+div.check-div table tr{margin-left: 40%;}
+.top-border div>h3{color: #dc3545;}
+#nav-next{color:white; padding-left: 20px;}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .nav-link.active {color:white;font-size: 18px;}
+.navbar-light .navbar-nav .active > .nav-link:hover{ text-decoration: underline;text-decoration-style:solid;}
+.index-header .navbar-light .navbar-nav .active > .nav-link:hover{ text-decoration: underline;text-decoration-style:solid;}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight{background-color: #dc3545;color: white;}
+div#slider-range .ui-widget-header{background-color: #00acc1;}
+div#slider-range span.ui-state-hover{background-color: #00acc1;}
+input#amount_min,input#amount_max{border:none;width: 6%;}
+.ui-widget-content .ui-state-hover{background-color: #dc3545;}
+.ui-datepicker .ui-datepicker-next{background-repeat: no-repeat;background-image: url('../images/right-white-arrow.png');margin-top: 2px;}
+.ui-datepicker .ui-datepicker-prev{background-repeat: no-repeat;background-image: url('../images/left-white-arrow.png');margin-top: 2px;}
+.side-menu #datepicker1{padding-left: 20%;}
+.side-menu div.form-group button{margin-top:10px; }
+.side-menu div.modal-body div.form-group label{color: black;}
+.side-menu label#title-label{ background-color: #26b5ca;color: white; font-size: 16px;}
+.side-menu div.form-group label{color: white; font-size: 16px;}
+ div#signupmodal .modal-header,.side-menu div#signupmodal .modal-footer{justify-content: center;}
+div#signupmodal .modal-footer button{background-color: #dc3454;border:none;width: 100%;}
+div#signupmodal .modal-body .form-group input#datepicker2{padding-left: 15%;}
+div#signupmodal .modal-body .form-group img#signup-img{position: absolute;top: 31%;left:10%;}
+div#side-menu-date{position: relative;}
+div.side-menu img{position: absolute;top: 60%;left: 5%;}
+div.hide-side-menu{padding-left: 45%;}
+div.hide-side-menu button{width: auto; display: none;}
+.top-border .cost-div{ padding:2px;}
+div.cost-div img {height: 30px;}
+div.cost-div label{border:none;font-size: 24px;color: #00ACC1;font-weight: bold;text-align: center;}
+div.cost-div input.form-control:disabled{border: none;font-size: 24px;text-align: center;color: #dc3454;background-color: #fff;}
+label#main-label{font-size: 32px;color: #00acc1;font-weight: bold;}
+ label#location{font-size: 18px;color: #dc3454;}
+ label#logo-label{font-size: 32px;color: #00ACC1;font-weight: bold;}
+ div.col-12.pic-row{align-items: center;margin: 0px -15px;}
+ .pic-row img#logo{height: 100px;width: 100px;}
+.top-border .col-sm-12.pic-row label{color: #00ACC1; font-weight: bold; font-size: 32px;}
+.check-div .col-sm-6 h3{background-color: #00ACC1; color: white; text-align: center; margin-bottom:5px; }
+.check-div p{margin-left: 25%;}
+.check-div p img{height: 30px; width:30px;}
+.check-div {margin-top:10px; padding-right: 2px;}
+div.check-div #check-div-1{border-right:1px solid #ccc; }
+header.head-contact{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.06) 10%,rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 0.72) 75%, 
+	rgba(0, 0, 0, 0.84) 89%, rgba(0, 0, 0, 0.91) 100%) ,url('../images/contact-banner.jpg');background-repeat: no-repeat; position: relative;background-size: cover; background-position: center; height: 60%;}
+    .head-contact nav{border-bottom: 1px solid white;}
+header.head-contact .navbar-light .navbar-nav .nav-link{font-size: 18;margin-left: 30px;}
+.header-title-contact{text-align: center;color: white;top: 50%;left: 50%;font-family: "Roboto", sans-serif;font-weight: bolder;
+	margin: 50px 0px;}
+footer{background-color: grey; padding-bottom:  10px;}
+header form .btn{border: 1px solid white; color: white; font-size: 16px; text-align:center;}
+header div.header-title-contact label{font-size: 48px; color:white;font-family: "Roboto",sans-serif;}
+div.contact-text p{font-size: 19px;color: #B2B4B3;margin: 20px 0px;}
+textarea::placeholder{text-align: center;line-height: 30;}
+div.sub-btn input{background-color:#dc3545 ; color: white; margin-bottom: 50px;;padding: 0px 40px;}
+div.sub-btn input:hover{color: white;}
+div.sub-btn input:after{color: white;background-color: #dc3454;}
+.check-div .col-sm-6 img{height: 16px; width: 16px;}
+.check-div .col-sm-6 label{font-size: 16px;}
+div.info-row img{height: 30px;width: 30px; padding-top: 2px;}
+div.row.info-row{align-items: center;justify-content: space-between;}
+.ui-widget-header{background-color: #dc3545;}
+.side-menu div.form-group>button{width: 100%; background-color: #dc3454;color: white;}	
+div.flex-row{justify-content: space-between;}
+header.head-faq{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%,rgba(0, 0, 0, 0.06) 10%,rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, 
+	rgba(0, 0, 0, 0.91) 100%) ,url('../images/faq-banner.jpg');background-repeat: no-repeat; position: relative;background-size: cover; background-position: top; height: 60%;}
+.head-faq nav{border-bottom: 1px solid white;}
+header.head-faq .navbar-light .navbar-nav .nav-link{font-size: 18px;margin-left: 30px;}
+.header-title-faq{text-align: center;color: white;top: 50%;left: 50%;font-family: "Roboto", sans-serif;font-weight: bolder;margin: 50px 0px;}
+.faq-accordion{margin-top: 40px;}
+.faq-accordion button.accordion {margin-top: 5px; background-color:white; color: #00ACC1; cursor: pointer;padding: 18px; width: 100%; 
+	border: none; text-align: left; font-size: 32px; transition: 0.4s;font-weight:bold;	border-bottom: 1px solid grey;}
+.faq-accordion button.accordion img{float: right; height: 25px; width: 25px;transition: 0.6s ease-in-out;}
+.faq-accordion button.accordion.active, button.accordion:hover { background-color: white;}
+.faq-accordion div.panel {padding: 0 18px;background-color: white;max-height: 0;overflow: hidden;transition: 0.6s ease-in-out; opacity: 0;font-size: 21px;}
+.faq-accordion div.panel.show {opacity: 1;max-height: 500px; }
+.faq-accordion button.accordion.active img{transform:rotate(180deg);transition: 0.6s ease-in-out;}
+header.search-banner{background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, 
+	rgba(0, 0, 0, 0.06) 10%,rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, 
+	rgba(0, 0, 0, 0.91) 100%) ,url('../images/banner-img.jpg');	background-size: cover;background-position: center;}
+header.search-banner nav{border-bottom: 1px solid white;}
+header.search-banner .navbar-light .navbar-nav .nav-link{color: #00ACC1; font-size: 18px; margin-left: 30px;}
+header.search-banner div h1{text-align: center;  color: white;}
+.filter-search	{padding: 0px;}
+header.search-banner div h3{text-align: center; color: #00ACC1; }
+div#slider1>h2,div#slider2>h2,div#slider3>h2{color: #00ACC1; margin-top: 50px;font-weight: bolder;margin-bottom: 20px;}	
+div.search-bar{padding-bottom: 40px;}
+div.search-bar .row .col-sm-4,div.search-bar .row .col-sm-3,div.search-bar .row .col-sm-2{ margin-right: -15px;margin-left: -15px;}
+div.search-bar label{color: white;font-size: 18px;text-align: center;width: 100%;}
+div.search-bar button:hover{border:1px solid white;}
+div#slider1 .owl-carousel .item img,div#slider3 .owl-carousel .item img{height: 300px;width: 100%;}
+div#slider1 .owl-carousel .item img:hover,div#slider3 .owl-carousel .item img:hover,div#slider2 .owl-carousel .item img:hover{transform: scale(1.05,1.05);}
+.owl-carousel .owl-nav button.owl-prev{position: absolute;bottom:50%;left:0;}
+.owl-carousel .owl-nav button.owl-next{position: absolute;bottom:50%;right:0;}
+div#slider1 .owl-carousel .item{position: relative;}
+div#slider1 .owl-carousel .item div,div#slider2 .owl-carousel .item div{position: absolute;bottom: 0;padding-left: 5px;}
+div#slider1 .owl-carousel .item div label.label1{background-color: white;border-radius: 5px;}
+div#slider1 .owl-carousel .item div h6,div#slider2 .owl-carousel .item div h6,div#slider3 .owl-carousel .item div h6{color: white;}
+div#slider1 .owl-carousel .item div p{color: #00ACC1;}
+div#slider1 .owl-carousel .item div label.label2{color: white;}
+div#slider1 .owl-carousel .item div label.slider2-label{color: #dc3545;font-weight: bolder;}
+div#slider3 .owl-carousel .item div{position: absolute;bottom: 20%;padding-left: 5px;}
+div#slider3 .owl-carousel .item div label.slider3-label1{color: white;}
+div#slider3 .owl-carousel .item div h4{color: #dc3545;background-color: white;border-radius: 5px;width: fit-content;}
+div#slider3 .owl-carousel .item figcaption{padding-top: 10px;}
+div#slider3 .owl-carousel .item figcaption label{color: #dc3454;font-weight: 500;font-size: 16px;}
+div#slider3 .owl-carousel .item figcaption h6{color: #00ACC1;}
+header.search-result-header .navbar-light .navbar-nav .nav-link{color: #00ACC1; font-size: 18px; margin-left: 30px;}
+header.search-result-header .navbar-light .navbar-nav a.nav-link:hover{text-decoration: underline;}
+header.search-result-header button.btn{border:1px solid #00ACC1;color: #00ACC1;font-size: 14px;padding: 0px 20px;width: auto;}
+header.search-result-header{width: 100%;border-bottom: 1px solid #ccc;}
+header.search-result-header button.btn:hover,button.more-filter-button:hover,button.more-filter-button-2:hover{background-color: #00ACC1;color: white;}
+button.more-filter-button{color: #00ACC1;border:1px solid #00ACC1; margin-top: 30px; font-size: 14px;}
+button.more-filter-button-2{color: #00ACC1;border:1px solid #00ACC1; margin-top: 30px; font-size: 14px;display: none;}
+div.search-result-row{justify-content: space-between; background-color: #FAFAFA;margin-bottom: 30px;border-bottom: 1px solid #ccc;}
+div.search-result-row-2{ background-color: #FAFAFA;align-items: center;justify-content: center;border-bottom: 1px solid #ccc;padding: 10px;}
+div.search-result-row-2 div.col-2{border-right: 1px solid #ccc;}
+div.search-result-row-2 img{border:1px solid #00ACC1;border-radius: 5px;height: 30px;width: 30px;padding:2px; }
+div.search-result-row-2 button{font-size: 10px; margin-top: 0px;}
+div.search-result-row-2 label{color: #00ACC1;font-size: 12px;}
+.custom-control-input:checked ~ .custom-control-label::before {background-color: red;border:none;}
+div.caption-text p img{border-radius: 50%; height: 15px;width: 15px;}
+div.caption-text p.blue{ margin-left:5px;color: #00ACC1; font-size: 14px;}
+div.caption-text label{color: grey;}
+div.static-div>label{font-size: 16px;}
+div.static-div div label{font-size: 14px;}
+div.search-result-row>div>label{font-size: 14px; color: #00ACC1;}
+div.static-div{margin: 20px 0px;}
+div.carousel-item img{position: relative;}
+div.carousel-item div{ position: absolute; top: 0; margin-top: 5%; margin-left: 5%;}
+div.carousel-item div label{background-color: #F5F5F4;font-size: 12px;color: #dc3454;border-radius: 5px;padding: 5px 2px;}
+div#exampleModal .modal-footer button.btn{background-color: #00ACC1;color: white;}
+div#exampleModal .modal-footer{justify-content:  center;}
+div#exampleModal .modal-body .row>.col-lg-4{border-right: 1px solid #ccc;}
+div#exampleModal .modal-body .row .col-lg-4>select option:hover{background-color: #dc3454;}
+div#exampleModal .modal-body .form-group label{color: #00ACC1;font-size: 16px;}
+div#myModal .column {float: left;width: 25%;}
+div#myModal .column img{height: 100%;width: 100%;}
+div#myModal.modal {display: none;position: fixed;z-index: 2;padding-top: 100px;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;
+	background-color: black;}
+div#myModal .modal-content {position: relative;background-color: #fefefe;margin: auto;padding: 0;width: 75%;max-width: 1200px;}
+div#myModal .close {color: white;position: absolute;top: 10px;right: 25px;font-size: 35px;font-weight: bold;box-sizing: border-box;}
+div#myModal .close:hover {color: #999;text-decoration: none;cursor: pointer;}
+div#myModal .mySlides {display: none;}
+div#myModal .cursor {cursor: pointer;}
+div#myModal .prev,div#myModal .next {cursor: pointer;position: absolute;top: 40%;width: auto;padding: 16px;margin-top: -50px;color: white;
+	font-weight: bold;font-size: 20px;transition: 0.6s ease;border-radius: 0 3px 3px 0;user-select: none;-webkit-user-select: none;}
+div#myModal .next {right: -10%;border-radius: 3px 0 0 3px;}
+div#myModal .prev{left:-10%;}
+div#myModal .prev:hover,
+div#myModal .next:hover {background-color: rgba(0, 0, 0, 0.8);}
+div#myModal .numbertext {color: #f2f2f2;font-size: 12px;padding: 8px 12px;position: absolute;top: 0;}
+div#myModal .caption-container {text-align: center;background-color: black;padding: 2px 16px;	color: white;}
+div#myModal .demo {opacity: 0.6;}
+div#myModal .active,div#myModal .demo:hover {opacity: 1;}
+div#myModal img.hover-shadow {transition: 0.3s;}
+div#myModal .hover-shadow:hover {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+div#slider1 .owl-carousel div.item div,div#slider2 .owl-carousel div.item div,div#slider3 .owl-carousel div.item div{background:linear-gradient(to bottom, rgba(0, 0, 0, 0)0%, rgba(0, 0, 0, 0.06) 10%, 
+  rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 0.72) 75%, rgba(0, 0, 0, 0.84) 89%, rgba(0, 0, 0, 0.91) 100%);width: 100%;}

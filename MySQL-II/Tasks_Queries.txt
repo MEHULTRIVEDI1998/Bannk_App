@@ -1,0 +1,53 @@
+ 1)	select categories.name,count(projects.id) from projects inner join categories on projects.category_id =categories.id group by categories.name;
+
+2)	select countries.name,count(projects.id) from projects inner join countries on projects.country_id =countries.id group by countries.name;
+
+3)	select cities.name,count(projects.id),countries.name from projects inner join cities on projects.city_id=cities.id inner join countries on cities.country_id=countries.id group by cities.name having countries.name='India';
+
+4)	insert into  project_view_history (id,project_id,view_date) values(4,1,'2018-02-21'),(5,1,'2018-02-21'),
+(6,1,'2018-04-21'),(7,1,'2018-06-01'),(8,1,'2018-07-19'),(9,1,'2018-08-26'),(10,1,'2018-10-21'),
+(11,1,'2018-12-07'),	(12,2,'2018-02-21'),(13,2,'2018-02-21'),
+(14,2,'2018-04-21'),(15,2,'2018-06-01'),(16,2,'2018-07-19'),(17,2,'2018-08-26'),(18,2,'2018-10-21'),
+(19,2,'2018-12-07'),(20,3,'2018-02-21'),(21,3,'2018-02-21'),
+(22,3,'2018-04-21'),	(23,3,'2018-06-01'),(24,3,'2018-07-19'),(25,3,'2018-08-26'),(26,3,'2018-10-21'),
+(27,3,'2018-12-07'),(28,4,'2018-02-21'),(29,4,'2018-02-21'),
+(30,4,'2018-04-21'),(31,4,'2018-06-01'),(32,4,'2018-07-19'),(33,4,'2018-08-26'),	(34,4,'2018-10-21'),
+(35,4,'2018-12-07'),
+(36,5,'2018-02-15'),(37,5,'2018-03-02'),(38,5,'2018-03-28'),(39,5,'2018-04-09'),(40,5,'2018-06-06'),(41,5,'2018-07-21'),(42,5,'2018-09-03'),
+(43,6,'2018-02-15'),(44,6,'2018-03-02'),	(45,6,'2018-03-28'),(46,6,'2018-04-09'),(47,6,'2018-06-06'),(48,6,'2018-07-21'),(49,6,'2018-09-03'),
+(50,7,'2018-02-15'),(51,7,'2018-03-02'),(52,7,'2018-03-28'),(53,7,'2018-04-09'),(54,7,'2018-06-06'),(55,7,'2018-07-21'),	(56,7,'2018-09-03'),
+(57,8,'2018-02-15'),(58,8,'2018-03-02'),(59,8,'2018-03-28'),(60,8,'2018-04-09'),(62,8,'2018-06-06'),(63,8,'2018-07-21'),(64,8,'2018-09-03'),
+(65,9,'2018-02-15'),(66,9,'2018-03-02'),(67,9,'2018-03-28'),	(70,9,'2018-04-09'),(71,9,'2018-06-06'),(72,9,'2018-07-21'),(73,9,'2018-09-03'),
+(74,9,'2018-02-15'),(75,10,'2018-03-02'),(76,10,'2018-03-28'),(77,10,'2018-04-09'),(78,10,'2018-06-06'),(79,10,'2018-07-21'),(80,10,'2018-09-03'),
+	(81,11,'2018-02-15'),(82,10,'2018-03-02'),(83,10,'2018-03-28'),(84,10,'2018-04-09'),(85,10,'2018-06-06'),(86,10,'2018-07-21'),(87,10,'2018-09-03');
+
+	select projects.id,projects.title,count(view_date) as Views from project_view_history,projects where projects.id=project_view_history.project_id group by projects.id;
+
+
+ 5)	select 
+  count(project_view_history.id) as Viwes,projects.title,projects.id,countries.name
+from
+  project_view_history,projects,countries
+where
+projects.id=project_view_history.project_id and
+countries.id=projects.country_id and
+countries.name='India' and
+  project_view_history.view_date >= DATE_ADD(LAST_DAY(DATE_SUB(NOW(), INTERVAL 2 MONTH)), INTERVAL 1 DAY) and
+  project_view_history.view_date  <= DATE_SUB(NOW(), INTERVAL 1 MONTH) group by projects.id;
+
+
+ 6)	select aa.count,aa.id,min(aa.cost) from(select count(project_view_history.id) as count,project_costs.project_id as id,(project_costs.cost/number_of_weeks)
+ as cost from project_view_history,project_costs where project_costs.id=project_view_history.project_id group by project_view_history.project_id)
+ as aa 
+ where aa.count>=10;
+
+ 7)	select projects.id,projects.title,project_start_dates.start_date from 	projects,project_start_dates where projects.id=project_start_dates.project_id and 		project_start_dates.start_date>'2019-03-01' group by projects.id;	
+
+ 8)	select aa.title,aa.id,aa.cost from(select projects.id,(cost/number_of_weeks) as 	cost,projects.title as title from project_costs,projects where 		projects.id=project_costs.project_id)as aa where aa.cost>=250 and aa.cost<=300;
+
+ 9)	
+
+ 10)	select projects.id,projects.title,count(project_view_history.id) as Count,categories.name from 	projects,project_view_history,categories where projects.id=project_view_history.project_id  	and projects.category_id=categories.id group by categories.name;
+ 11)	select aa.* from(select projects.id,projects.title,project_start_dates.start_date from 	projects,project_start_dates where projects.id=project_start_dates.project_id and 	project_start_dates.start_date>'2019-03-01')as aa group by aa.id having count(aa.id)>=2;
+
+ 12)	select projects.id,projects.title,applications.duration,projects.is_affordable from 	projects,applications where projects.id=applications.project_id  and duration>5  and 		projects.is_affordable='yes' group by projects.id;
